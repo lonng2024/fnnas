@@ -1,5 +1,5 @@
 name: "Make Fnnas"
-author: "https://github.com/ophub/fnnas"
+author: "https://github.com/lonng2024/fnnas"
 description: "Support Amlogic, Rockchip and Allwinner boxes."
 inputs:
   # Select build target
@@ -19,7 +19,7 @@ inputs:
   kernel_repo:
     description: "Select kernel repository."
     required: false
-    default: "ophub/fnnas"
+    default: "lonng2024/fnnas"
   fnnas_kernel:
     description: "Select kernel version."
     required: false
@@ -44,7 +44,7 @@ inputs:
   debs_repo:
     description: "Set fnnas debs repository."
     required: false
-    default: "ophub/fnnas"
+    default: "lonng2024/fnnas"
   debs_install:
     description: "Install kernel debs files."
     required: false
